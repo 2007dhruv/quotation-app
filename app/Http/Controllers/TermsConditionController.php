@@ -36,6 +36,11 @@ class TermsConditionController extends Controller
             'display_order' => 'required|integer|min:0'
         ]);
 
+        // Shift existing orders down if necessary
+        $newOrder = $validated['display_order'];
+        TermsCondition::where('display_order', '>=', $newOrder)
+            ->increment('display_order');
+
         TermsCondition::create($validated);
 
         return redirect()->route('terms-conditions.index')
@@ -61,6 +66,25 @@ class TermsConditionController extends Controller
             'is_active' => 'boolean',
             'display_order' => 'required|integer|min:0'
         ]);
+
+        $newOrder = $validated['display_order'];
+        $oldOrder = $termsCondition->display_order;
+
+        if ($newOrder != $oldOrder) {
+            if ($newOrder < $oldOrder) {
+                // Moving up: shift items down
+                TermsCondition::where('display_order', '>=', $newOrder)
+                    ->where('display_order', '<', $oldOrder)
+                    ->where('id', '!=', $termsCondition->id)
+                    ->increment('display_order');
+            } else {
+                // Moving down: shift items up
+                TermsCondition::where('display_order', '>', $oldOrder)
+                    ->where('display_order', '<=', $newOrder)
+                    ->where('id', '!=', $termsCondition->id)
+                    ->decrement('display_order');
+            }
+        }
 
         $termsCondition->update($validated);
 

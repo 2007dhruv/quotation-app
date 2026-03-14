@@ -1,0 +1,441 @@
+product_name,product_model,spec_name,spec_value,spec_unit,price
+Hydraulic Press Brake,APBR-415,Tonnage,40,TON,1700000
+Hydraulic Press Brake,APBR-415,Table Length,1525,mm,1700000
+Hydraulic Press Brake,APBR-415,Bending Dimensions in MS UTS 45 Kg/mm2,1525X3,mm,1700000
+Hydraulic Press Brake,APBR-415,Table Width,150,mm,1700000
+Hydraulic Press Brake,APBR-415,Distance Between Housing,1050,mm,1700000
+Hydraulic Press Brake,APBR-415,Ram Stroke,100,mm,1700000
+Hydraulic Press Brake,APBR-415,Ram Adjustment,250,mm,1700000
+Hydraulic Press Brake,APBR-415,Shut Height,200,mm,1700000
+Hydraulic Press Brake,APBR-415,Approach Pressing Return,30-7-30,SPM,1700000
+Hydraulic Press Brake,APBR-415,Power,3,HP,1700000
+Hydraulic Press Brake,APBR-420,Tonnage,40,TON,2200000
+Hydraulic Press Brake,APBR-420,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-420,Bending Dimensions in MS UTS 45 Kg/mm2,2030X2.5,mm,2200000
+Hydraulic Press Brake,APBR-420,Table Width,150,mm,2200000
+Hydraulic Press Brake,APBR-420,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-420,Ram Stroke,100,mm,2200000
+Hydraulic Press Brake,APBR-420,Ram Adjustment,250,mm,2200000
+Hydraulic Press Brake,APBR-420,Shut Height,200,mm,2200000
+Hydraulic Press Brake,APBR-420,Approach Pressing Return,30-7-30,SPM,2200000
+Hydraulic Press Brake,APBR-420,Power,3,HP,2200000
+Hydraulic Press Brake,APBR-425,Tonnage,40,TON,2700000
+Hydraulic Press Brake,APBR-425,Table Length,2540,mm,2700000
+Hydraulic Press Brake,APBR-425,Bending Dimensions in MS UTS 45 Kg/mm2,2540X2,mm,2700000
+Hydraulic Press Brake,APBR-425,Table Width,150,mm,2700000
+Hydraulic Press Brake,APBR-425,Distance Between Housing,2050,mm,2700000
+Hydraulic Press Brake,APBR-425,Ram Stroke,100,mm,2700000
+Hydraulic Press Brake,APBR-425,Ram Adjustment,250,mm,2700000
+Hydraulic Press Brake,APBR-425,Shut Height,200,mm,2700000
+Hydraulic Press Brake,APBR-425,Approach Pressing Return,40-8-40,SPM,2700000
+Hydraulic Press Brake,APBR-425,Power,3,HP,2700000
+Hydraulic Press Brake,APBR-515,Tonnage,50,TON,1700000
+Hydraulic Press Brake,APBR-515,Table Length,1525,mm,1700000
+Hydraulic Press Brake,APBR-515,Bending Dimensions in MS UTS 45 Kg/mm2,1525X4,mm,1700000
+Hydraulic Press Brake,APBR-515,Table Width,150,mm,1700000
+Hydraulic Press Brake,APBR-515,Distance Between Housing,1050,mm,1700000
+Hydraulic Press Brake,APBR-515,Ram Stroke,100,mm,1700000
+Hydraulic Press Brake,APBR-515,Ram Adjustment,250,mm,1700000
+Hydraulic Press Brake,APBR-515,Shut Height,200,mm,1700000
+Hydraulic Press Brake,APBR-515,Approach Pressing Return,40-8-40,SPM,1700000
+Hydraulic Press Brake,APBR-515,Power,3,HP,1700000
+Hydraulic Press Brake,APBR-520,Tonnage,50,TON,2200000
+Hydraulic Press Brake,APBR-520,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-520,Bending Dimensions in MS UTS 45 Kg/mm2,2030X3,mm,2200000
+Hydraulic Press Brake,APBR-520,Table Width,150,mm,2200000
+Hydraulic Press Brake,APBR-520,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-520,Ram Stroke,100,mm,2200000
+Hydraulic Press Brake,APBR-520,Ram Adjustment,250,mm,2200000
+Hydraulic Press Brake,APBR-520,Shut Height,200,mm,2200000
+Hydraulic Press Brake,APBR-520,Approach Pressing Return,40-8-40,SPM,2200000
+Hydraulic Press Brake,APBR-520,Power,3,HP,2200000
+Hydraulic Press Brake,APBR-525,Tonnage,50,TON,2700000
+Hydraulic Press Brake,APBR-525,Table Length,2540,mm,2700000
+Hydraulic Press Brake,APBR-525,Bending Dimensions in MS UTS 45 Kg/mm2,2540X2.5,mm,2700000
+Hydraulic Press Brake,APBR-525,Table Width,190,mm,2700000
+Hydraulic Press Brake,APBR-525,Distance Between Housing,2050,mm,2700000
+Hydraulic Press Brake,APBR-525,Ram Stroke,100,mm,2700000
+Hydraulic Press Brake,APBR-525,Ram Adjustment,250,mm,2700000
+Hydraulic Press Brake,APBR-525,Shut Height,200,mm,2700000
+Hydraulic Press Brake,APBR-525,Approach Pressing Return,35-7-35,SPM,2700000
+Hydraulic Press Brake,APBR-525,Power,5,HP,2700000
+Hydraulic Press Brake,APBR-612,Tonnage,60,TON,1500000
+Hydraulic Press Brake,APBR-612,Table Length,1270,mm,1500000
+Hydraulic Press Brake,APBR-612,Bending Dimensions in MS UTS 45 Kg/mm2,1270X6,mm,1500000
+Hydraulic Press Brake,APBR-612,Table Width,190,mm,1500000
+Hydraulic Press Brake,APBR-612,Distance Between Housing,1000,mm,1500000
+Hydraulic Press Brake,APBR-612,Ram Stroke,150,mm,1500000
+Hydraulic Press Brake,APBR-612,Ram Adjustment,250,mm,1500000
+Hydraulic Press Brake,APBR-612,Shut Height,200,mm,1500000
+Hydraulic Press Brake,APBR-612,Approach Pressing Return,35-7-35,SPM,1500000
+Hydraulic Press Brake,APBR-612,Power,5,HP,1500000
+Hydraulic Press Brake,APBR-615,Tonnage,60,TON,1700000
+Hydraulic Press Brake,APBR-615,Table Length,1525,mm,1700000
+Hydraulic Press Brake,APBR-615,Bending Dimensions in MS UTS 45 Kg/mm2,1525X5,mm,1700000
+Hydraulic Press Brake,APBR-615,Table Width,190,mm,1700000
+Hydraulic Press Brake,APBR-615,Distance Between Housing,1050,mm,1700000
+Hydraulic Press Brake,APBR-615,Ram Stroke,150,mm,1700000
+Hydraulic Press Brake,APBR-615,Ram Adjustment,250,mm,1700000
+Hydraulic Press Brake,APBR-615,Shut Height,200,mm,1700000
+Hydraulic Press Brake,APBR-615,Approach Pressing Return,35-7-35,SPM,1700000
+Hydraulic Press Brake,APBR-615,Power,5,HP,1700000
+Hydraulic Press Brake,APBR-620,Tonnage,60,TON,2200000
+Hydraulic Press Brake,APBR-620,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-620,Bending Dimensions in MS UTS 45 Kg/mm2,2030X4,mm,2200000
+Hydraulic Press Brake,APBR-620,Table Width,190,mm,2200000
+Hydraulic Press Brake,APBR-620,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-620,Ram Stroke,150,mm,2200000
+Hydraulic Press Brake,APBR-620,Ram Adjustment,250,mm,2200000
+Hydraulic Press Brake,APBR-620,Shut Height,200,mm,2200000
+Hydraulic Press Brake,APBR-620,Approach Pressing Return,35-7-35,SPM,2200000
+Hydraulic Press Brake,APBR-620,Power,5,HP,2200000
+Hydraulic Press Brake,APBR-625,Tonnage,60,TON,2700000
+Hydraulic Press Brake,APBR-625,Table Length,2540,mm,2700000
+Hydraulic Press Brake,APBR-625,Bending Dimensions in MS UTS 45 Kg/mm2,2540X3,mm,2700000
+Hydraulic Press Brake,APBR-625,Table Width,190,mm,2700000
+Hydraulic Press Brake,APBR-625,Distance Between Housing,2050,mm,2700000
+Hydraulic Press Brake,APBR-625,Ram Stroke,150,mm,2700000
+Hydraulic Press Brake,APBR-625,Ram Adjustment,330,mm,2700000
+Hydraulic Press Brake,APBR-625,Shut Height,200,mm,2700000
+Hydraulic Press Brake,APBR-625,Approach Pressing Return,30-5-30,SPM,2700000
+Hydraulic Press Brake,APBR-625,Power,5,HP,2700000
+Hydraulic Press Brake,APBR-630,Tonnage,60,TON,3350000
+Hydraulic Press Brake,APBR-630,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-630,Bending Dimensions in MS UTS 45 Kg/mm2,3125X2,mm,3350000
+Hydraulic Press Brake,APBR-630,Table Width,190,mm,3350000
+Hydraulic Press Brake,APBR-630,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-630,Ram Stroke,150,mm,3350000
+Hydraulic Press Brake,APBR-630,Ram Adjustment,330,mm,3350000
+Hydraulic Press Brake,APBR-630,Shut Height,200,mm,3350000
+Hydraulic Press Brake,APBR-630,Approach Pressing Return,30-5-30,SPM,3350000
+Hydraulic Press Brake,APBR-630,Power,5,HP,3350000
+Hydraulic Press Brake,APBR-812,Tonnage,80,TON,1500000
+Hydraulic Press Brake,APBR-812,Table Length,1270,mm,1500000
+Hydraulic Press Brake,APBR-812,Bending Dimensions in MS UTS 45 Kg/mm2,1270X8,mm,1500000
+Hydraulic Press Brake,APBR-812,Table Width,190,mm,1500000
+Hydraulic Press Brake,APBR-812,Distance Between Housing,1000,mm,1500000
+Hydraulic Press Brake,APBR-812,Ram Stroke,150,mm,1500000
+Hydraulic Press Brake,APBR-812,Ram Adjustment,330,mm,1500000
+Hydraulic Press Brake,APBR-812,Shut Height,200,mm,1500000
+Hydraulic Press Brake,APBR-812,Approach Pressing Return,30-5-30,SPM,1500000
+Hydraulic Press Brake,APBR-812,Power,5,HP,1500000
+Hydraulic Press Brake,APBR-815,Tonnage,80,TON,1700000
+Hydraulic Press Brake,APBR-815,Table Length,1525,mm,1700000
+Hydraulic Press Brake,APBR-815,Bending Dimensions in MS UTS 45 Kg/mm2,1525X6,mm,1700000
+Hydraulic Press Brake,APBR-815,Table Width,190,mm,1700000
+Hydraulic Press Brake,APBR-815,Distance Between Housing,1050,mm,1700000
+Hydraulic Press Brake,APBR-815,Ram Stroke,150,mm,1700000
+Hydraulic Press Brake,APBR-815,Ram Adjustment,330,mm,1700000
+Hydraulic Press Brake,APBR-815,Shut Height,200,mm,1700000
+Hydraulic Press Brake,APBR-815,Approach Pressing Return,30-5-30,SPM,1700000
+Hydraulic Press Brake,APBR-815,Power,5,HP,1700000
+Hydraulic Press Brake,APBR-820,Tonnage,80,TON,2200000
+Hydraulic Press Brake,APBR-820,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-820,Bending Dimensions in MS UTS 45 Kg/mm2,2030X5,mm,2200000
+Hydraulic Press Brake,APBR-820,Table Width,190,mm,2200000
+Hydraulic Press Brake,APBR-820,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-820,Ram Stroke,150,mm,2200000
+Hydraulic Press Brake,APBR-820,Ram Adjustment,330,mm,2200000
+Hydraulic Press Brake,APBR-820,Shut Height,200,mm,2200000
+Hydraulic Press Brake,APBR-820,Approach Pressing Return,30-5-30,SPM,2200000
+Hydraulic Press Brake,APBR-820,Power,5,HP,2200000
+Hydraulic Press Brake,APBR-825,Tonnage,80,TON,2700000
+Hydraulic Press Brake,APBR-825,Table Length,2540,mm,2700000
+Hydraulic Press Brake,APBR-825,Bending Dimensions in MS UTS 45 Kg/mm2,2540X4,mm,2700000
+Hydraulic Press Brake,APBR-825,Table Width,190,mm,2700000
+Hydraulic Press Brake,APBR-825,Distance Between Housing,2050,mm,2700000
+Hydraulic Press Brake,APBR-825,Ram Stroke,150,mm,2700000
+Hydraulic Press Brake,APBR-825,Ram Adjustment,330,mm,2700000
+Hydraulic Press Brake,APBR-825,Shut Height,200,mm,2700000
+Hydraulic Press Brake,APBR-825,Approach Pressing Return,38-6-45,SPM,2700000
+Hydraulic Press Brake,APBR-825,Power,7.5,HP,2700000
+Hydraulic Press Brake,APBR-830,Tonnage,80,TON,3350000
+Hydraulic Press Brake,APBR-830,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-830,Bending Dimensions in MS UTS 45 Kg/mm2,3125X3,mm,3350000
+Hydraulic Press Brake,APBR-830,Table Width,190,mm,3350000
+Hydraulic Press Brake,APBR-830,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-830,Ram Stroke,150,mm,3350000
+Hydraulic Press Brake,APBR-830,Ram Adjustment,330,mm,3350000
+Hydraulic Press Brake,APBR-830,Shut Height,200,mm,3350000
+Hydraulic Press Brake,APBR-830,Approach Pressing Return,38-6-45,SPM,3350000
+Hydraulic Press Brake,APBR-830,Power,7.5,HP,3350000
+Hydraulic Press Brake,APBR-1015,Tonnage,100,TON,1700000
+Hydraulic Press Brake,APBR-1015,Table Length,1525,mm,1700000
+Hydraulic Press Brake,APBR-1015,Bending Dimensions in MS UTS 45 Kg/mm2,1525X8,mm,1700000
+Hydraulic Press Brake,APBR-1015,Table Width,190,mm,1700000
+Hydraulic Press Brake,APBR-1015,Distance Between Housing,1050,mm,1700000
+Hydraulic Press Brake,APBR-1015,Ram Stroke,150,mm,1700000
+Hydraulic Press Brake,APBR-1015,Ram Adjustment,330,mm,1700000
+Hydraulic Press Brake,APBR-1015,Shut Height,200,mm,1700000
+Hydraulic Press Brake,APBR-1015,Approach Pressing Return,38-6-45,SPM,1700000
+Hydraulic Press Brake,APBR-1015,Power,7.5,HP,1700000
+Hydraulic Press Brake,APBR-1020,Tonnage,100,TON,2200000
+Hydraulic Press Brake,APBR-1020,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-1020,Bending Dimensions in MS UTS 45 Kg/mm2,2030X6,mm,2200000
+Hydraulic Press Brake,APBR-1020,Table Width,190,mm,2200000
+Hydraulic Press Brake,APBR-1020,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-1020,Ram Stroke,150,mm,2200000
+Hydraulic Press Brake,APBR-1020,Ram Adjustment,330,mm,2200000
+Hydraulic Press Brake,APBR-1020,Shut Height,200,mm,2200000
+Hydraulic Press Brake,APBR-1020,Approach Pressing Return,38-6-45,SPM,2200000
+Hydraulic Press Brake,APBR-1020,Power,7.5,HP,2200000
+Hydraulic Press Brake,APBR-1025,Tonnage,100,TON,2700000
+Hydraulic Press Brake,APBR-1025,Table Length,2540,mm,2700000
+Hydraulic Press Brake,APBR-1025,Bending Dimensions in MS UTS 45 Kg/mm2,2540X5,mm,2700000
+Hydraulic Press Brake,APBR-1025,Table Width,190,mm,2700000
+Hydraulic Press Brake,APBR-1025,Distance Between Housing,2050,mm,2700000
+Hydraulic Press Brake,APBR-1025,Ram Stroke,150,mm,2700000
+Hydraulic Press Brake,APBR-1025,Ram Adjustment,330,mm,2700000
+Hydraulic Press Brake,APBR-1025,Shut Height,200,mm,2700000
+Hydraulic Press Brake,APBR-1025,Approach Pressing Return,38-6-45,SPM,2700000
+Hydraulic Press Brake,APBR-1025,Power,7.5,HP,2700000
+Hydraulic Press Brake,APBR-1030,Tonnage,100,TON,3350000
+Hydraulic Press Brake,APBR-1030,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-1030,Bending Dimensions in MS UTS 45 Kg/mm2,3125X4,mm,3350000
+Hydraulic Press Brake,APBR-1030,Table Width,190,mm,3350000
+Hydraulic Press Brake,APBR-1030,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-1030,Ram Stroke,150,mm,3350000
+Hydraulic Press Brake,APBR-1030,Ram Adjustment,330,mm,3350000
+Hydraulic Press Brake,APBR-1030,Shut Height,200,mm,3350000
+Hydraulic Press Brake,APBR-1030,Approach Pressing Return,38-6-45,SPM,3350000
+Hydraulic Press Brake,APBR-1030,Power,7.5,HP,3350000
+Hydraulic Press Brake,APBR-1040,Tonnage,100,TON,4250000
+Hydraulic Press Brake,APBR-1040,Table Length,4000,mm,4250000
+Hydraulic Press Brake,APBR-1040,Bending Dimensions in MS UTS 45 Kg/mm2,4000X3,mm,4250000
+Hydraulic Press Brake,APBR-1040,Table Width,190,mm,4250000
+Hydraulic Press Brake,APBR-1040,Distance Between Housing,3250,mm,4250000
+Hydraulic Press Brake,APBR-1040,Ram Stroke,150,mm,4250000
+Hydraulic Press Brake,APBR-1040,Ram Adjustment,330,mm,4250000
+Hydraulic Press Brake,APBR-1040,Shut Height,200,mm,4250000
+Hydraulic Press Brake,APBR-1040,Approach Pressing Return,38-6-45,SPM,4250000
+Hydraulic Press Brake,APBR-1040,Power,7.5,HP,4250000
+Hydraulic Press Brake,APBR-1215,Tonnage,120,TON,1700000
+Hydraulic Press Brake,APBR-1215,Table Length,1525,mm,1700000
+Hydraulic Press Brake,APBR-1215,Bending Dimensions in MS UTS 45 Kg/mm2,1525X10,mm,1700000
+Hydraulic Press Brake,APBR-1215,Table Width,230,mm,1700000
+Hydraulic Press Brake,APBR-1215,Distance Between Housing,1050,mm,1700000
+Hydraulic Press Brake,APBR-1215,Ram Stroke,150,mm,1700000
+Hydraulic Press Brake,APBR-1215,Ram Adjustment,330,mm,1700000
+Hydraulic Press Brake,APBR-1215,Shut Height,300,mm,1700000
+Hydraulic Press Brake,APBR-1215,Approach Pressing Return,38-6-45,SPM,1700000
+Hydraulic Press Brake,APBR-1215,Power,7.5,HP,1700000
+Hydraulic Press Brake,APBR-1220,Tonnage,120,TON,2200000
+Hydraulic Press Brake,APBR-1220,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-1220,Bending Dimensions in MS UTS 45 Kg/mm2,2030X8,mm,2200000
+Hydraulic Press Brake,APBR-1220,Table Width,230,mm,2200000
+Hydraulic Press Brake,APBR-1220,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-1220,Ram Stroke,150,mm,2200000
+Hydraulic Press Brake,APBR-1220,Ram Adjustment,330,mm,2200000
+Hydraulic Press Brake,APBR-1220,Shut Height,300,mm,2200000
+Hydraulic Press Brake,APBR-1220,Approach Pressing Return,38-6-45,SPM,2200000
+Hydraulic Press Brake,APBR-1220,Power,7.5,HP,2200000
+Hydraulic Press Brake,APBR-1225,Tonnage,120,TON,2750000
+Hydraulic Press Brake,APBR-1225,Table Length,2540,mm,2750000
+Hydraulic Press Brake,APBR-1225,Bending Dimensions in MS UTS 45 Kg/mm2,2540X6,mm,2750000
+Hydraulic Press Brake,APBR-1225,Table Width,230,mm,2750000
+Hydraulic Press Brake,APBR-1225,Distance Between Housing,2050,mm,2750000
+Hydraulic Press Brake,APBR-1225,Ram Stroke,150,mm,2750000
+Hydraulic Press Brake,APBR-1225,Ram Adjustment,350,mm,2750000
+Hydraulic Press Brake,APBR-1225,Shut Height,300,mm,2750000
+Hydraulic Press Brake,APBR-1225,Approach Pressing Return,38-5-40,SPM,2750000
+Hydraulic Press Brake,APBR-1225,Power,10,HP,2750000
+Hydraulic Press Brake,APBR-1230,Tonnage,120,TON,3350000
+Hydraulic Press Brake,APBR-1230,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-1230,Bending Dimensions in MS UTS 45 Kg/mm2,3125X5,mm,3350000
+Hydraulic Press Brake,APBR-1230,Table Width,230,mm,3350000
+Hydraulic Press Brake,APBR-1230,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-1230,Ram Stroke,150,mm,3350000
+Hydraulic Press Brake,APBR-1230,Ram Adjustment,350,mm,3350000
+Hydraulic Press Brake,APBR-1230,Shut Height,300,mm,3350000
+Hydraulic Press Brake,APBR-1230,Approach Pressing Return,38-5-40,SPM,3350000
+Hydraulic Press Brake,APBR-1230,Power,10,HP,3350000
+Hydraulic Press Brake,APBR-1240,Tonnage,120,TON,4250000
+Hydraulic Press Brake,APBR-1240,Table Length,4000,mm,4250000
+Hydraulic Press Brake,APBR-1240,Bending Dimensions in MS UTS 45 Kg/mm2,4000X4,mm,4250000
+Hydraulic Press Brake,APBR-1240,Table Width,230,mm,4250000
+Hydraulic Press Brake,APBR-1240,Distance Between Housing,3250,mm,4250000
+Hydraulic Press Brake,APBR-1240,Ram Stroke,150,mm,4250000
+Hydraulic Press Brake,APBR-1240,Ram Adjustment,350,mm,4250000
+Hydraulic Press Brake,APBR-1240,Shut Height,300,mm,4250000
+Hydraulic Press Brake,APBR-1240,Approach Pressing Return,38-5-40,SPM,4250000
+Hydraulic Press Brake,APBR-1240,Power,10,HP,4250000
+Hydraulic Press Brake,APBR-1615,Tonnage,160,TON,1700000
+Hydraulic Press Brake,APBR-1615,Table Length,1525,mm,1700000
+Hydraulic Press Brake,APBR-1615,Bending Dimensions in MS UTS 45 Kg/mm2,1525X12,mm,1700000
+Hydraulic Press Brake,APBR-1615,Table Width,230,mm,1700000
+Hydraulic Press Brake,APBR-1615,Distance Between Housing,1050,mm,1700000
+Hydraulic Press Brake,APBR-1615,Ram Stroke,150,mm,1700000
+Hydraulic Press Brake,APBR-1615,Ram Adjustment,350,mm,1700000
+Hydraulic Press Brake,APBR-1615,Shut Height,300,mm,1700000
+Hydraulic Press Brake,APBR-1615,Approach Pressing Return,38-5-40,SPM,1700000
+Hydraulic Press Brake,APBR-1615,Power,10,HP,1700000
+Hydraulic Press Brake,APBR-1620,Tonnage,160,TON,2200000
+Hydraulic Press Brake,APBR-1620,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-1620,Bending Dimensions in MS UTS 45 Kg/mm2,2030X10,mm,2200000
+Hydraulic Press Brake,APBR-1620,Table Width,230,mm,2200000
+Hydraulic Press Brake,APBR-1620,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-1620,Ram Stroke,150,mm,2200000
+Hydraulic Press Brake,APBR-1620,Ram Adjustment,350,mm,2200000
+Hydraulic Press Brake,APBR-1620,Shut Height,300,mm,2200000
+Hydraulic Press Brake,APBR-1620,Approach Pressing Return,38-5-40,SPM,2200000
+Hydraulic Press Brake,APBR-1620,Power,10,HP,2200000
+Hydraulic Press Brake,APBR-1625,Tonnage,160,TON,2750000
+Hydraulic Press Brake,APBR-1625,Table Length,2540,mm,2750000
+Hydraulic Press Brake,APBR-1625,Bending Dimensions in MS UTS 45 Kg/mm2,2540X8,mm,2750000
+Hydraulic Press Brake,APBR-1625,Table Width,230,mm,2750000
+Hydraulic Press Brake,APBR-1625,Distance Between Housing,2050,mm,2750000
+Hydraulic Press Brake,APBR-1625,Ram Stroke,150,mm,2750000
+Hydraulic Press Brake,APBR-1625,Ram Adjustment,350,mm,2750000
+Hydraulic Press Brake,APBR-1625,Shut Height,300,mm,2750000
+Hydraulic Press Brake,APBR-1625,Approach Pressing Return,35-6-40,SPM,2750000
+Hydraulic Press Brake,APBR-1625,Power,15,HP,2750000
+Hydraulic Press Brake,APBR-1630,Tonnage,160,TON,3350000
+Hydraulic Press Brake,APBR-1630,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-1630,Bending Dimensions in MS UTS 45 Kg/mm2,3125X6,mm,3350000
+Hydraulic Press Brake,APBR-1630,Table Width,230,mm,3350000
+Hydraulic Press Brake,APBR-1630,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-1630,Ram Stroke,150,mm,3350000
+Hydraulic Press Brake,APBR-1630,Ram Adjustment,350,mm,3350000
+Hydraulic Press Brake,APBR-1630,Shut Height,300,mm,3350000
+Hydraulic Press Brake,APBR-1630,Approach Pressing Return,35-6-40,SPM,3350000
+Hydraulic Press Brake,APBR-1630,Power,15,HP,3350000
+Hydraulic Press Brake,APBR-1640,Tonnage,160,TON,4250000
+Hydraulic Press Brake,APBR-1640,Table Length,4000,mm,4250000
+Hydraulic Press Brake,APBR-1640,Bending Dimensions in MS UTS 45 Kg/mm2,4000X5,mm,4250000
+Hydraulic Press Brake,APBR-1640,Table Width,300,mm,4250000
+Hydraulic Press Brake,APBR-1640,Distance Between Housing,3250,mm,4250000
+Hydraulic Press Brake,APBR-1640,Ram Stroke,150,mm,4250000
+Hydraulic Press Brake,APBR-1640,Ram Adjustment,350,mm,4250000
+Hydraulic Press Brake,APBR-1640,Shut Height,300,mm,4250000
+Hydraulic Press Brake,APBR-1640,Approach Pressing Return,35-6-40,SPM,4250000
+Hydraulic Press Brake,APBR-1640,Power,15,HP,4250000
+Hydraulic Press Brake,APBR-2020,Tonnage,200,TON,2200000
+Hydraulic Press Brake,APBR-2020,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-2020,Bending Dimensions in MS UTS 45 Kg/mm2,2030X12,mm,2200000
+Hydraulic Press Brake,APBR-2020,Table Width,250,mm,2200000
+Hydraulic Press Brake,APBR-2020,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-2020,Ram Stroke,200,mm,2200000
+Hydraulic Press Brake,APBR-2020,Ram Adjustment,350,mm,2200000
+Hydraulic Press Brake,APBR-2020,Shut Height,300,mm,2200000
+Hydraulic Press Brake,APBR-2020,Approach Pressing Return,35-6-40,SPM,2200000
+Hydraulic Press Brake,APBR-2020,Power,15,HP,2200000
+Hydraulic Press Brake,APBR-2025,Tonnage,200,TON,2850000
+Hydraulic Press Brake,APBR-2025,Table Length,2540,mm,2850000
+Hydraulic Press Brake,APBR-2025,Bending Dimensions in MS UTS 45 Kg/mm2,2540X10,mm,2850000
+Hydraulic Press Brake,APBR-2025,Table Width,250,mm,2850000
+Hydraulic Press Brake,APBR-2025,Distance Between Housing,2050,mm,2850000
+Hydraulic Press Brake,APBR-2025,Ram Stroke,200,mm,2850000
+Hydraulic Press Brake,APBR-2025,Ram Adjustment,400,mm,2850000
+Hydraulic Press Brake,APBR-2025,Shut Height,300,mm,2850000
+Hydraulic Press Brake,APBR-2025,Approach Pressing Return,35-7-35,SPM,2850000
+Hydraulic Press Brake,APBR-2025,Power,20,HP,2850000
+Hydraulic Press Brake,APBR-2030,Tonnage,200,TON,3350000
+Hydraulic Press Brake,APBR-2030,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-2030,Bending Dimensions in MS UTS 45 Kg/mm2,3125X8,mm,3350000
+Hydraulic Press Brake,APBR-2030,Table Width,250,mm,3350000
+Hydraulic Press Brake,APBR-2030,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-2030,Ram Stroke,200,mm,3350000
+Hydraulic Press Brake,APBR-2030,Ram Adjustment,400,mm,3350000
+Hydraulic Press Brake,APBR-2030,Shut Height,300,mm,3350000
+Hydraulic Press Brake,APBR-2030,Approach Pressing Return,35-7-35,SPM,3350000
+Hydraulic Press Brake,APBR-2030,Power,20,HP,3350000
+Hydraulic Press Brake,APBR-2040,Tonnage,200,TON,4250000
+Hydraulic Press Brake,APBR-2040,Table Length,4000,mm,4250000
+Hydraulic Press Brake,APBR-2040,Bending Dimensions in MS UTS 45 Kg/mm2,4000X6,mm,4250000
+Hydraulic Press Brake,APBR-2040,Table Width,300,mm,4250000
+Hydraulic Press Brake,APBR-2040,Distance Between Housing,3250,mm,4250000
+Hydraulic Press Brake,APBR-2040,Ram Stroke,200,mm,4250000
+Hydraulic Press Brake,APBR-2040,Ram Adjustment,400,mm,4250000
+Hydraulic Press Brake,APBR-2040,Shut Height,300,mm,4250000
+Hydraulic Press Brake,APBR-2040,Approach Pressing Return,35-7-35,SPM,4250000
+Hydraulic Press Brake,APBR-2040,Power,20,HP,4250000
+Hydraulic Press Brake,APBR-2520,Tonnage,250,TON,2200000
+Hydraulic Press Brake,APBR-2520,Table Length,2030,mm,2200000
+Hydraulic Press Brake,APBR-2520,Bending Dimensions in MS UTS 45 Kg/mm2,2030X14,mm,2200000
+Hydraulic Press Brake,APBR-2520,Table Width,250,mm,2200000
+Hydraulic Press Brake,APBR-2520,Distance Between Housing,1550,mm,2200000
+Hydraulic Press Brake,APBR-2520,Ram Stroke,200,mm,2200000
+Hydraulic Press Brake,APBR-2520,Ram Adjustment,400,mm,2200000
+Hydraulic Press Brake,APBR-2520,Shut Height,300,mm,2200000
+Hydraulic Press Brake,APBR-2520,Approach Pressing Return,35-7-35,SPM,2200000
+Hydraulic Press Brake,APBR-2520,Power,20,HP,2200000
+Hydraulic Press Brake,APBR-2525,Tonnage,250,TON,2850000
+Hydraulic Press Brake,APBR-2525,Table Length,2540,mm,2850000
+Hydraulic Press Brake,APBR-2525,Bending Dimensions in MS UTS 45 Kg/mm2,2540X12,mm,2850000
+Hydraulic Press Brake,APBR-2525,Table Width,250,mm,2850000
+Hydraulic Press Brake,APBR-2525,Distance Between Housing,2050,mm,2850000
+Hydraulic Press Brake,APBR-2525,Ram Stroke,200,mm,2850000
+Hydraulic Press Brake,APBR-2525,Ram Adjustment,400,mm,2850000
+Hydraulic Press Brake,APBR-2525,Shut Height,300,mm,2850000
+Hydraulic Press Brake,APBR-2525,Approach Pressing Return,35-7-35,SPM,2850000
+Hydraulic Press Brake,APBR-2525,Power,20,HP,2850000
+Hydraulic Press Brake,APBR-2530,Tonnage,250,TON,3350000
+Hydraulic Press Brake,APBR-2530,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-2530,Bending Dimensions in MS UTS 45 Kg/mm2,3125X10,mm,3350000
+Hydraulic Press Brake,APBR-2530,Table Width,300,mm,3350000
+Hydraulic Press Brake,APBR-2530,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-2530,Ram Stroke,200,mm,3350000
+Hydraulic Press Brake,APBR-2530,Ram Adjustment,400,mm,3350000
+Hydraulic Press Brake,APBR-2530,Shut Height,300,mm,3350000
+Hydraulic Press Brake,APBR-2530,Approach Pressing Return,35-7-35,SPM,3350000
+Hydraulic Press Brake,APBR-2530,Power,20,HP,3350000
+Hydraulic Press Brake,APBR-2540,Tonnage,250,TON,4250000
+Hydraulic Press Brake,APBR-2540,Table Length,4000,mm,4250000
+Hydraulic Press Brake,APBR-2540,Bending Dimensions in MS UTS 45 Kg/mm2,4000X8,mm,4250000
+Hydraulic Press Brake,APBR-2540,Table Width,300,mm,4250000
+Hydraulic Press Brake,APBR-2540,Distance Between Housing,3250,mm,4250000
+Hydraulic Press Brake,APBR-2540,Ram Stroke,200,mm,4250000
+Hydraulic Press Brake,APBR-2540,Ram Adjustment,400,mm,4250000
+Hydraulic Press Brake,APBR-2540,Shut Height,300,mm,4250000
+Hydraulic Press Brake,APBR-2540,Approach Pressing Return,35-7-35,SPM,4250000
+Hydraulic Press Brake,APBR-2540,Power,20,HP,4250000
+Hydraulic Press Brake,APBR-3025,Tonnage,300,TON,2850000
+Hydraulic Press Brake,APBR-3025,Table Length,2540,mm,2850000
+Hydraulic Press Brake,APBR-3025,Bending Dimensions in MS UTS 45 Kg/mm2,2540X15,mm,2850000
+Hydraulic Press Brake,APBR-3025,Table Width,300,mm,2850000
+Hydraulic Press Brake,APBR-3025,Distance Between Housing,2050,mm,2850000
+Hydraulic Press Brake,APBR-3025,Ram Stroke,200,mm,2850000
+Hydraulic Press Brake,APBR-3025,Ram Adjustment,400,mm,2850000
+Hydraulic Press Brake,APBR-3025,Shut Height,300,mm,2850000
+Hydraulic Press Brake,APBR-3025,Approach Pressing Return,35-7-35,SPM,2850000
+Hydraulic Press Brake,APBR-3025,Power,20,HP,2850000
+Hydraulic Press Brake,APBR-3030,Tonnage,300,TON,3350000
+Hydraulic Press Brake,APBR-3030,Table Length,3125,mm,3350000
+Hydraulic Press Brake,APBR-3030,Bending Dimensions in MS UTS 45 Kg/mm2,3125X12,mm,3350000
+Hydraulic Press Brake,APBR-3030,Table Width,300,mm,3350000
+Hydraulic Press Brake,APBR-3030,Distance Between Housing,2550,mm,3350000
+Hydraulic Press Brake,APBR-3030,Ram Stroke,200,mm,3350000
+Hydraulic Press Brake,APBR-3030,Ram Adjustment,400,mm,3350000
+Hydraulic Press Brake,APBR-3030,Shut Height,300,mm,3350000
+Hydraulic Press Brake,APBR-3030,Approach Pressing Return,30-6-35,SPM,3350000
+Hydraulic Press Brake,APBR-3030,Power,30,HP,3350000
+Hydraulic Press Brake,APBR-3040,Tonnage,300,TON,4250000
+Hydraulic Press Brake,APBR-3040,Table Length,4000,mm,4250000
+Hydraulic Press Brake,APBR-3040,Bending Dimensions in MS UTS 45 Kg/mm2,4000X10,mm,4250000
+Hydraulic Press Brake,APBR-3040,Table Width,300,mm,4250000
+Hydraulic Press Brake,APBR-3040,Distance Between Housing,3250,mm,4250000
+Hydraulic Press Brake,APBR-3040,Ram Stroke,200,mm,4250000
+Hydraulic Press Brake,APBR-3040,Ram Adjustment,400,mm,4250000
+Hydraulic Press Brake,APBR-3040,Shut Height,300,mm,4250000
+Hydraulic Press Brake,APBR-3040,Approach Pressing Return,30-6-35,SPM,4250000
+Hydraulic Press Brake,APBR-3040,Power,30,HP,4250000
+Hydraulic Press Brake,APBR-3050,Tonnage,300,TON,5000000
+Hydraulic Press Brake,APBR-3050,Table Length,5000,mm,5000000
+Hydraulic Press Brake,APBR-3050,Bending Dimensions in MS UTS 45 Kg/mm2,5000X8,mm,5000000
+Hydraulic Press Brake,APBR-3050,Table Width,300,mm,5000000
+Hydraulic Press Brake,APBR-3050,Distance Between Housing,3250,mm,5000000
+Hydraulic Press Brake,APBR-3050,Ram Stroke,200,mm,5000000
+Hydraulic Press Brake,APBR-3050,Ram Adjustment,400,mm,5000000
+Hydraulic Press Brake,APBR-3050,Shut Height,300,mm,5000000
+Hydraulic Press Brake,APBR-3050,Approach Pressing Return,30-6-35,SPM,5000000
+Hydraulic Press Brake,APBR-3050,Power,30,HP,5000000
+Hydraulic Press Brake,APBR-3060,Tonnage,300,TON,6000000
+Hydraulic Press Brake,APBR-3060,Table Length,6000,mm,6000000
+Hydraulic Press Brake,APBR-3060,Bending Dimensions in MS UTS 45 Kg/mm2,6000X6,mm,6000000
+Hydraulic Press Brake,APBR-3060,Table Width,300,mm,6000000
+Hydraulic Press Brake,APBR-3060,Distance Between Housing,3250,mm,6000000
+Hydraulic Press Brake,APBR-3060,Ram Stroke,200,mm,6000000
+Hydraulic Press Brake,APBR-3060,Ram Adjustment,400,mm,6000000
+Hydraulic Press Brake,APBR-3060,Shut Height,300,mm,6000000
+Hydraulic Press Brake,APBR-3060,Approach Pressing Return,30-6-35,SPM,6000000
+Hydraulic Press Brake,APBR-3060,Power,30,HP,6000000

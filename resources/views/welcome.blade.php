@@ -50,6 +50,7 @@
     .action-card.customers .icon { background: linear-gradient(135deg, #10b981 0%, #059669 100%); }
     .action-card.products .icon { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
     .action-card.quotations .icon { background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); }
+    .action-card.csv .icon { background: linear-gradient(135deg, #06b6d4 0%, #0891b2 100%); }
     
     .action-card h3 { font-size: 16px; color: #333; margin-bottom: 16px; }
     .action-links { display: flex; flex-direction: column; gap: 8px; }
@@ -108,8 +109,8 @@
             </div>
             <h3>Products</h3>
             <div class="action-links">
-                <a href="{{ route('products.create') }}" class="btn-add">+ Add Product</a>
-                <a href="{{ route('products.index') }}" class="btn-view">View All Products</a>
+                <a href="{{ route('master.create') }}" class="btn-add">+ Add Product</a>
+                <a href="{{ route('master.index') }}" class="btn-view">View All Products</a>
             </div>
         </div>
 
@@ -123,6 +124,19 @@
             <div class="action-links">
                 <a href="{{ route('quotations.create') }}" class="btn-add">+ Create Quotation</a>
                 <a href="{{ route('quotations.index') }}" class="btn-view">View All Quotations</a>
+            </div>
+        </div>
+
+        <div class="action-card csv">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+            </div>
+            <h3>CSV Import</h3>
+            <div class="action-links">
+                <a href="{{ route('master.import-form') }}" class="btn-add">📥 Import Products</a>
+                <a href="{{ route('master.index') }}" class="btn-view">View All Products</a>
             </div>
         </div>
     </div>

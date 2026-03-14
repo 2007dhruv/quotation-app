@@ -16,10 +16,23 @@
     .section-title { font-size: 16px; font-weight: 600; color: #374151; margin: 24px 0 16px; padding-top: 16px; border-top: 1px solid #e5e7eb; }
     .image-preview { max-width: 150px; margin-top: 12px; border-radius: 6px; border: 1px solid #e5e7eb; padding: 8px; }
     textarea { resize: vertical; }
+    
+    /* Quill Editor Styling - MATCH QUOTATION FORM EXACTLY */
+    .ql-toolbar { border: 1px solid #d1d5db; border-bottom: none; border-radius: 6px 6px 0 0; background: #f9fafb; }
+    .ql-container { border: 1px solid #d1d5db; border-radius: 0 0 6px 6px; font-size: 14px; }
+    .ql-editor { min-height: 300px; padding: 15px; }
+    .ql-editor.ql-blank::before { color: #9ca3af; }
+    #default_letter_body_editor { margin-top: 8px; }
+    
     @media (max-width: 768px) {
         .form-row, .form-row-3 { grid-template-columns: 1fr; }
     }
 </style>
+
+<!-- Quill Rich Text Editor CDN -->
+<link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
+
 @endsection
 
 @section('content')
@@ -49,6 +62,13 @@
                     <label for="company_name">Company Name <span>*</span></label>
                     <input type="text" class="form-control" id="company_name" name="company_name" 
                            value="{{ old('company_name') }}" required placeholder="Enter company name">
+                </div>
+
+                <div class="form-group">
+                    <label for="company_short_name">Company Short Name (for Quotation) <span>*</span></label>
+                    <input type="text" class="form-control" id="company_short_name" name="company_short_name" 
+                           value="{{ old('company_short_name') }}" required placeholder="e.g., AMT (used in quotation number format)" maxlength="5">
+                    <small style="color: #6b7280;">This short name will be used in quotation numbers (e.g., AMT/02/2026/0001)</small>
                 </div>
 
                 <div class="form-row">
@@ -155,6 +175,14 @@
                     </div>
                 </div>
 
+                <!-- Default Letter Body for Quotations -->
+                <div class="form-group" style="margin-top: 20px; margin-bottom: 24px;">
+                    <label>Default Letter Body for Quotations</label>
+                    <div id="default_letter_body_editor" style="min-height:150px; max-height:300px; overflow-y:auto;"></div>
+                    <small class="text-muted" style="display: block; margin-top: 8px; color: #6b7280; font-size: 12px;">Set a default letter to be automatically loaded when creating quotations for this company. Users can customize it per quotation.</small>
+                    <input type="hidden" id="default_letter_body" name="default_letter_body" value="">
+                </div>
+
                 <!-- Images & Logos -->
                 <h3 class="section-title">Company Logos & Images</h3>
                 
@@ -165,30 +193,9 @@
                         <small style="color: #6b7280;">JPG, PNG, GIF (Max 2MB)</small>
                     </div>
                     <div class="form-group">
-                        <label for="qr_code_path">QR Code</label>
-                        <input type="file" class="form-control" id="qr_code_path" name="qr_code_path" accept="image/*">
+                        <label for="signature_image_path">Signature Image (Authorized Signatory)</label>
+                        <input type="file" class="form-control" id="signature_image_path" name="signature_image_path" accept="image/*">
                         <small style="color: #6b7280;">JPG, PNG, GIF (Max 2MB)</small>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="web_logo_path">Web Logo</label>
-                        <input type="file" class="form-control" id="web_logo_path" name="web_logo_path" accept="image/*">
-                        <small style="color: #6b7280;">JPG, PNG, GIF (Max 2MB)</small>
-                    </div>
-                </div>
-
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="phone_icon_path">Phone Icon</label>
-                        <input type="file" class="form-control" id="phone_icon_path" name="phone_icon_path" accept="image/*">
-                        <small style="color: #6b7280;">JPG, PNG, GIF (Max 1MB)</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="mail_icon_path">Mail Icon</label>
-                        <input type="file" class="form-control" id="mail_icon_path" name="mail_icon_path" accept="image/*">
-                        <small style="color: #6b7280;">JPG, PNG, GIF (Max 1MB)</small>
                     </div>
                 </div>
 
@@ -208,4 +215,53 @@
         </div>
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize Quill editor for default letter body - EXACT MATCH TO QUOTATION FORM
+        window.defaultLetterBodyQuill = new Quill('#default_letter_body_editor', {
+            theme: 'snow',
+            modules: {
+                toolbar: [
+                    ['bold', 'italic', 'underline', 'strike'],
+                    ['blockquote', 'code-block'],
+                    [{ 'header': 1 }, { 'header': 2 }],
+                    [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                    [{ 'script': 'sub'}, { 'script': 'super' }],
+                    [{ 'indent': '-1'}, { 'indent': '+1' }],
+                    [{ 'size': ['small', false, 'large', 'huge'] }],
+                    [{ 'header': [false, 1, 2, 3, 4, 5, 6] }],
+                    [{ 'color': [] }, { 'background': [] }],
+                    [{ 'font': [] }],
+                    [{ 'align': [] }],
+                    ['clean'],
+                    ['link', 'image']
+                ]
+            },
+            placeholder: 'Enter the default letter body that will be used for all quotations under this company...',
+            formats: ['bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block', 'header', 'indent', 'list', 'script', 'align', 'size', 'header', 'color', 'background', 'font', 'link', 'image']
+        });
+
+        console.log('✓ Quill editor initialized for Company CREATE form');
+
+        // CONTINUOUS SYNC: Use text-change event to keep hidden input updated in real-time
+        const hiddenInput = document.getElementById('default_letter_body');
+        window.defaultLetterBodyQuill.on('text-change', function(delta, oldDelta, source) {
+            const quillHTML = window.defaultLetterBodyQuill.root.innerHTML;
+            hiddenInput.value = quillHTML;
+            console.log('📝 CREATE form: Auto-synced on text change, length:', quillHTML.length);
+        });
+
+        // Attach form submission handler
+        const companyForm = document.querySelector('form');
+        if (companyForm) {
+            companyForm.addEventListener('submit', function(e) {
+                // SYNC QUILL CONTENT (backup sync in case text-change didn't catch it)
+                const quillContent = window.defaultLetterBodyQuill.root.innerHTML;
+                hiddenInput.value = quillContent;
+                console.log('💾 CREATE form: Synced on form submission, length:', quillContent.length);
+            });
+        }
+    });
+</script>
 @endsection

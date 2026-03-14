@@ -1,0 +1,491 @@
+product_name,product_model,spec_name,spec_value,spec_unit
+Mechanical Press Brake,APBM-212,Tonnage,20,TON
+Mechanical Press Brake,APBM-212,Table Length,1270,mm
+Mechanical Press Brake,APBM-212,Bending Dimensions,1270x2,kg/mm2
+Mechanical Press Brake,APBM-212,Table Width,150,mm
+Mechanical Press Brake,APBM-212,Clearing Between Housing,760,mm
+Mechanical Press Brake,APBM-212,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-212,Ram Adjust,30,mm
+Mechanical Press Brake,APBM-212,Shut Height,230,mm
+Mechanical Press Brake,APBM-212,Thrust Depth,175,mm
+Mechanical Press Brake,APBM-212,Stroke/Minute,50,SPM
+Mechanical Press Brake,APBM-212,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-212,Main Motor,2,HP
+Mechanical Press Brake,APBM-215,Tonnage,20,TON
+Mechanical Press Brake,APBM-215,Table Length,1525,mm
+Mechanical Press Brake,APBM-215,Bending Dimensions,1525x1.6,kg/mm2
+Mechanical Press Brake,APBM-215,Table Width,150,mm
+Mechanical Press Brake,APBM-215,Clearing Between Housing,1000,mm
+Mechanical Press Brake,APBM-215,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-215,Ram Adjust,30,mm
+Mechanical Press Brake,APBM-215,Shut Height,230,mm
+Mechanical Press Brake,APBM-215,Thrust Depth,175,mm
+Mechanical Press Brake,APBM-215,Stroke/Minute,50,SPM
+Mechanical Press Brake,APBM-215,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-215,Main Motor,2,HP
+Mechanical Press Brake,APBM-251A,Tonnage,25,TON
+Mechanical Press Brake,APBM-251A,Table Length,1525,mm
+Mechanical Press Brake,APBM-251A,Bending Dimensions,1525x2,kg/mm2
+Mechanical Press Brake,APBM-251A,Table Width,150,mm
+Mechanical Press Brake,APBM-251A,Clearing Between Housing,1000,mm
+Mechanical Press Brake,APBM-251A,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-251A,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-251A,Shut Height,230,mm
+Mechanical Press Brake,APBM-251A,Thrust Depth,175,mm
+Mechanical Press Brake,APBM-251A,Stroke/Minute,45,SPM
+Mechanical Press Brake,APBM-251A,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-251A,Main Motor,3,HP
+Mechanical Press Brake,APBM-220,Tonnage,25,TON
+Mechanical Press Brake,APBM-220,Table Length,2030,mm
+Mechanical Press Brake,APBM-220,Bending Dimensions,2030x1.6,kg/mm2
+Mechanical Press Brake,APBM-220,Table Width,150,mm
+Mechanical Press Brake,APBM-220,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-220,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-220,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-220,Shut Height,230,mm
+Mechanical Press Brake,APBM-220,Thrust Depth,175,mm
+Mechanical Press Brake,APBM-220,Stroke/Minute,45,SPM
+Mechanical Press Brake,APBM-220,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-220,Main Motor,3,HP
+Mechanical Press Brake,APBM-320,Tonnage,30,TON
+Mechanical Press Brake,APBM-320,Table Length,2030,mm
+Mechanical Press Brake,APBM-320,Bending Dimensions,2030x2,kg/mm2
+Mechanical Press Brake,APBM-320,Table Width,150,mm
+Mechanical Press Brake,APBM-320,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-320,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-320,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-320,Shut Height,250,mm
+Mechanical Press Brake,APBM-320,Thrust Depth,175,mm
+Mechanical Press Brake,APBM-320,Stroke/Minute,45,SPM
+Mechanical Press Brake,APBM-320,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-320,Main Motor,3,HP
+Mechanical Press Brake,APBM-325,Tonnage,30,TON
+Mechanical Press Brake,APBM-325,Table Length,2540,mm
+Mechanical Press Brake,APBM-325,Bending Dimensions,2540x1.6,kg/mm2
+Mechanical Press Brake,APBM-325,Table Width,150,mm
+Mechanical Press Brake,APBM-325,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-325,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-325,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-325,Shut Height,250,mm
+Mechanical Press Brake,APBM-325,Thrust Depth,175,mm
+Mechanical Press Brake,APBM-325,Stroke/Minute,45,SPM
+Mechanical Press Brake,APBM-325,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-325,Main Motor,5,HP
+Mechanical Press Brake,APBM-412,Tonnage,40,TON
+Mechanical Press Brake,APBM-412,Table Length,1270,mm
+Mechanical Press Brake,APBM-412,Bending Dimensions,1270x4,kg/mm2
+Mechanical Press Brake,APBM-412,Table Width,150,mm
+Mechanical Press Brake,APBM-412,Clearing Between Housing,910,mm
+Mechanical Press Brake,APBM-412,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-412,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-412,Shut Height,250,mm
+Mechanical Press Brake,APBM-412,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-412,Stroke/Minute,40,SPM
+Mechanical Press Brake,APBM-412,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-412,Main Motor,5,HP
+Mechanical Press Brake,APBM-415,Tonnage,40,TON
+Mechanical Press Brake,APBM-415,Table Length,1525,mm
+Mechanical Press Brake,APBM-415,Bending Dimensions,1525x3,kg/mm2
+Mechanical Press Brake,APBM-415,Table Width,150,mm
+Mechanical Press Brake,APBM-415,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-415,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-415,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-415,Shut Height,250,mm
+Mechanical Press Brake,APBM-415,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-415,Stroke/Minute,40,SPM
+Mechanical Press Brake,APBM-415,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-415,Main Motor,5,HP
+Mechanical Press Brake,APBM-420,Tonnage,40,TON
+Mechanical Press Brake,APBM-420,Table Length,2030,mm
+Mechanical Press Brake,APBM-420,Bending Dimensions,2030x2.5,kg/mm2
+Mechanical Press Brake,APBM-420,Table Width,150,mm
+Mechanical Press Brake,APBM-420,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-420,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-420,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-420,Shut Height,250,mm
+Mechanical Press Brake,APBM-420,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-420,Stroke/Minute,40,SPM
+Mechanical Press Brake,APBM-420,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-420,Main Motor,5,HP
+Mechanical Press Brake,APBM-425,Tonnage,40,TON
+Mechanical Press Brake,APBM-425,Table Length,2540,mm
+Mechanical Press Brake,APBM-425,Bending Dimensions,2540x2,kg/mm2
+Mechanical Press Brake,APBM-425,Table Width,150,mm
+Mechanical Press Brake,APBM-425,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-425,Ram Stroke,60,mm
+Mechanical Press Brake,APBM-425,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-425,Shut Height,250,mm
+Mechanical Press Brake,APBM-425,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-425,Stroke/Minute,40,SPM
+Mechanical Press Brake,APBM-425,Ram Adjust Mode,0.75,HP
+Mechanical Press Brake,APBM-425,Main Motor,5,HP
+Mechanical Press Brake,APBM-612,Tonnage,60,TON
+Mechanical Press Brake,APBM-612,Table Length,1270,mm
+Mechanical Press Brake,APBM-612,Bending Dimensions,1270x6,kg/mm2
+Mechanical Press Brake,APBM-612,Table Width,190,mm
+Mechanical Press Brake,APBM-612,Clearing Between Housing,910,mm
+Mechanical Press Brake,APBM-612,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-612,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-612,Shut Height,250,mm
+Mechanical Press Brake,APBM-612,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-612,Stroke/Minute,40,SPM
+Mechanical Press Brake,APBM-612,Ram Adjust Mode,1,HP
+Mechanical Press Brake,APBM-612,Main Motor,7.5,HP
+Mechanical Press Brake,APBM-615,Tonnage,60,TON
+Mechanical Press Brake,APBM-615,Table Length,1525,mm
+Mechanical Press Brake,APBM-615,Bending Dimensions,1525x5,kg/mm2
+Mechanical Press Brake,APBM-615,Table Width,190,mm
+Mechanical Press Brake,APBM-615,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-615,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-615,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-615,Shut Height,310,mm
+Mechanical Press Brake,APBM-615,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-615,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-615,Ram Adjust Mode,1,HP
+Mechanical Press Brake,APBM-615,Main Motor,7.5,HP
+Mechanical Press Brake,APBM-620,Tonnage,60,TON
+Mechanical Press Brake,APBM-620,Table Length,2030,mm
+Mechanical Press Brake,APBM-620,Bending Dimensions,2030x4,kg/mm2
+Mechanical Press Brake,APBM-620,Table Width,190,mm
+Mechanical Press Brake,APBM-620,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-620,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-620,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-620,Shut Height,310,mm
+Mechanical Press Brake,APBM-620,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-620,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-620,Ram Adjust Mode,1,HP
+Mechanical Press Brake,APBM-620,Main Motor,7.5,HP
+Mechanical Press Brake,APBM-625,Tonnage,60,TON
+Mechanical Press Brake,APBM-625,Table Length,2540,mm
+Mechanical Press Brake,APBM-625,Bending Dimensions,2540x3,kg/mm2
+Mechanical Press Brake,APBM-625,Table Width,190,mm
+Mechanical Press Brake,APBM-625,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-625,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-625,Ram Adjust,40,mm
+Mechanical Press Brake,APBM-625,Shut Height,310,mm
+Mechanical Press Brake,APBM-625,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-625,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-625,Ram Adjust Mode,1,HP
+Mechanical Press Brake,APBM-625,Main Motor,7.5,HP
+Mechanical Press Brake,APBM-630,Tonnage,60,TON
+Mechanical Press Brake,APBM-630,Table Length,3125,mm
+Mechanical Press Brake,APBM-630,Bending Dimensions,3125x2.5,kg/mm2
+Mechanical Press Brake,APBM-630,Table Width,190,mm
+Mechanical Press Brake,APBM-630,Clearing Between Housing,1700,mm
+Mechanical Press Brake,APBM-630,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-630,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-630,Shut Height,310,mm
+Mechanical Press Brake,APBM-630,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-630,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-630,Ram Adjust Mode,1,HP
+Mechanical Press Brake,APBM-630,Main Motor,7.5,HP
+Mechanical Press Brake,APBM-812,Tonnage,80,TON
+Mechanical Press Brake,APBM-812,Table Length,1270,mm
+Mechanical Press Brake,APBM-812,Bending Dimensions,1270x8,kg/mm2
+Mechanical Press Brake,APBM-812,Table Width,190,mm
+Mechanical Press Brake,APBM-812,Clearing Between Housing,910,mm
+Mechanical Press Brake,APBM-812,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-812,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-812,Shut Height,310,mm
+Mechanical Press Brake,APBM-812,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-812,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-812,Ram Adjust Mode,1,HP
+Mechanical Press Brake,APBM-812,Main Motor,10,HP
+Mechanical Press Brake,APBM-815,Tonnage,80,TON
+Mechanical Press Brake,APBM-815,Table Length,1525,mm
+Mechanical Press Brake,APBM-815,Bending Dimensions,1525x6.5,kg/mm2
+Mechanical Press Brake,APBM-815,Table Width,190,mm
+Mechanical Press Brake,APBM-815,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-815,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-815,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-815,Shut Height,310,mm
+Mechanical Press Brake,APBM-815,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-815,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-815,Ram Adjust Mode,1.5,HP
+Mechanical Press Brake,APBM-815,Main Motor,10,HP
+Mechanical Press Brake,APBM-820,Tonnage,80,TON
+Mechanical Press Brake,APBM-820,Table Length,2030,mm
+Mechanical Press Brake,APBM-820,Bending Dimensions,2030x5,kg/mm2
+Mechanical Press Brake,APBM-820,Table Width,190,mm
+Mechanical Press Brake,APBM-820,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-820,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-820,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-820,Shut Height,310,mm
+Mechanical Press Brake,APBM-820,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-820,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-820,Ram Adjust Mode,1.5,HP
+Mechanical Press Brake,APBM-820,Main Motor,10,HP
+Mechanical Press Brake,APBM-825,Tonnage,80,TON
+Mechanical Press Brake,APBM-825,Table Length,2540,mm
+Mechanical Press Brake,APBM-825,Bending Dimensions,2540x4,kg/mm2
+Mechanical Press Brake,APBM-825,Table Width,190,mm
+Mechanical Press Brake,APBM-825,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-825,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-825,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-825,Shut Height,310,mm
+Mechanical Press Brake,APBM-825,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-825,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-825,Ram Adjust Mode,1.5,HP
+Mechanical Press Brake,APBM-825,Main Motor,10,HP
+Mechanical Press Brake,APBM-830,Tonnage,80,TON
+Mechanical Press Brake,APBM-830,Table Length,3125,mm
+Mechanical Press Brake,APBM-830,Bending Dimensions,3125x3,kg/mm2
+Mechanical Press Brake,APBM-830,Table Width,190,mm
+Mechanical Press Brake,APBM-830,Clearing Between Housing,1700,mm
+Mechanical Press Brake,APBM-830,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-830,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-830,Shut Height,310,mm
+Mechanical Press Brake,APBM-830,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-830,Stroke/Minute,35,SPM
+Mechanical Press Brake,APBM-830,Ram Adjust Mode,1.5,HP
+Mechanical Press Brake,APBM-830,Main Motor,10,HP
+Mechanical Press Brake,APBM-1015,Tonnage,100,TON
+Mechanical Press Brake,APBM-1015,Table Length,1525,mm
+Mechanical Press Brake,APBM-1015,Bending Dimensions,1525x8,kg/mm2
+Mechanical Press Brake,APBM-1015,Table Width,190,mm
+Mechanical Press Brake,APBM-1015,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-1015,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1015,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-1015,Shut Height,310,mm
+Mechanical Press Brake,APBM-1015,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1015,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1015,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1015,Main Motor,10,HP
+Mechanical Press Brake,APBM-1020,Tonnage,100,TON
+Mechanical Press Brake,APBM-1020,Table Length,2030,mm
+Mechanical Press Brake,APBM-1020,Bending Dimensions,2030x6,kg/mm2
+Mechanical Press Brake,APBM-1020,Table Width,190,mm
+Mechanical Press Brake,APBM-1020,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-1020,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1020,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-1020,Shut Height,310,mm
+Mechanical Press Brake,APBM-1020,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1020,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1020,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1020,Main Motor,15,HP
+Mechanical Press Brake,APBM-1025,Tonnage,100,TON
+Mechanical Press Brake,APBM-1025,Table Length,2540,mm
+Mechanical Press Brake,APBM-1025,Bending Dimensions,2540x5,kg/mm2
+Mechanical Press Brake,APBM-1025,Table Width,190,mm
+Mechanical Press Brake,APBM-1025,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-1025,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1025,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-1025,Shut Height,310,mm
+Mechanical Press Brake,APBM-1025,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1025,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1025,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1025,Main Motor,15,HP
+Mechanical Press Brake,APBM-1030,Tonnage,100,TON
+Mechanical Press Brake,APBM-1030,Table Length,3125,mm
+Mechanical Press Brake,APBM-1030,Bending Dimensions,3125x4,kg/mm2
+Mechanical Press Brake,APBM-1030,Table Width,190,mm
+Mechanical Press Brake,APBM-1030,Clearing Between Housing,1700,mm
+Mechanical Press Brake,APBM-1030,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1030,Ram Adjust,50,mm
+Mechanical Press Brake,APBM-1030,Shut Height,310,mm
+Mechanical Press Brake,APBM-1030,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1030,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1030,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1030,Main Motor,15,HP
+Mechanical Press Brake,APBM-1212,Tonnage,120,TON
+Mechanical Press Brake,APBM-1212,Table Length,1270,mm
+Mechanical Press Brake,APBM-1212,Bending Dimensions,1270x12,kg/mm2
+Mechanical Press Brake,APBM-1212,Table Width,250,mm
+Mechanical Press Brake,APBM-1212,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-1212,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1212,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1212,Shut Height,310,mm
+Mechanical Press Brake,APBM-1212,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1212,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1212,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1212,Main Motor,20,HP
+Mechanical Press Brake,APBM-1215,Tonnage,120,TON
+Mechanical Press Brake,APBM-1215,Table Length,1525,mm
+Mechanical Press Brake,APBM-1215,Bending Dimensions,1525x10,kg/mm2
+Mechanical Press Brake,APBM-1215,Table Width,250,mm
+Mechanical Press Brake,APBM-1215,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-1215,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1215,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1215,Shut Height,310,mm
+Mechanical Press Brake,APBM-1215,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1215,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1215,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1215,Main Motor,20,HP
+Mechanical Press Brake,APBM-1220,Tonnage,120,TON
+Mechanical Press Brake,APBM-1220,Table Length,2030,mm
+Mechanical Press Brake,APBM-1220,Bending Dimensions,2030x8,kg/mm2
+Mechanical Press Brake,APBM-1220,Table Width,250,mm
+Mechanical Press Brake,APBM-1220,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-1220,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1220,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1220,Shut Height,310,mm
+Mechanical Press Brake,APBM-1220,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1220,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1220,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1220,Main Motor,20,HP
+Mechanical Press Brake,APBM-1225,Tonnage,120,TON
+Mechanical Press Brake,APBM-1225,Table Length,2540,mm
+Mechanical Press Brake,APBM-1225,Bending Dimensions,2540x6,kg/mm2
+Mechanical Press Brake,APBM-1225,Table Width,250,mm
+Mechanical Press Brake,APBM-1225,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-1225,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1225,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1225,Shut Height,310,mm
+Mechanical Press Brake,APBM-1225,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1225,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1225,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1225,Main Motor,20,HP
+Mechanical Press Brake,APBM-1230,Tonnage,120,TON
+Mechanical Press Brake,APBM-1230,Table Length,3125,mm
+Mechanical Press Brake,APBM-1230,Bending Dimensions,3125x5,kg/mm2
+Mechanical Press Brake,APBM-1230,Table Width,250,mm
+Mechanical Press Brake,APBM-1230,Clearing Between Housing,1700,mm
+Mechanical Press Brake,APBM-1230,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1230,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1230,Shut Height,310,mm
+Mechanical Press Brake,APBM-1230,Thrust Depth,210,mm
+Mechanical Press Brake,APBM-1230,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1230,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1230,Main Motor,20,HP
+Mechanical Press Brake,APBM-1612,Tonnage,160,TON
+Mechanical Press Brake,APBM-1612,Table Length,1270,mm
+Mechanical Press Brake,APBM-1612,Bending Dimensions,1270x16,kg/mm2
+Mechanical Press Brake,APBM-1612,Table Width,300,mm
+Mechanical Press Brake,APBM-1612,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-1612,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1612,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1612,Shut Height,310,mm
+Mechanical Press Brake,APBM-1612,Thrust Depth,240,mm
+Mechanical Press Brake,APBM-1612,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1612,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1612,Main Motor,20,HP
+Mechanical Press Brake,APBM-1615,Tonnage,160,TON
+Mechanical Press Brake,APBM-1615,Table Length,1525,mm
+Mechanical Press Brake,APBM-1615,Bending Dimensions,1525x12,kg/mm2
+Mechanical Press Brake,APBM-1615,Table Width,300,mm
+Mechanical Press Brake,APBM-1615,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-1615,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1615,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1615,Shut Height,310,mm
+Mechanical Press Brake,APBM-1615,Thrust Depth,240,mm
+Mechanical Press Brake,APBM-1615,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1615,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1615,Main Motor,20,HP
+Mechanical Press Brake,APBM-1620,Tonnage,160,TON
+Mechanical Press Brake,APBM-1620,Table Length,2030,mm
+Mechanical Press Brake,APBM-1620,Bending Dimensions,2030x10,kg/mm2
+Mechanical Press Brake,APBM-1620,Table Width,300,mm
+Mechanical Press Brake,APBM-1620,Clearing Between Housing,1060,mm
+Mechanical Press Brake,APBM-1620,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1620,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1620,Shut Height,310,mm
+Mechanical Press Brake,APBM-1620,Thrust Depth,240,mm
+Mechanical Press Brake,APBM-1620,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1620,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1620,Main Motor,20,HP
+Mechanical Press Brake,APBM-1625,Tonnage,160,TON
+Mechanical Press Brake,APBM-1625,Table Length,2540,mm
+Mechanical Press Brake,APBM-1625,Bending Dimensions,2540x8,kg/mm2
+Mechanical Press Brake,APBM-1625,Table Width,300,mm
+Mechanical Press Brake,APBM-1625,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-1625,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-1625,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-1625,Shut Height,310,mm
+Mechanical Press Brake,APBM-1625,Thrust Depth,240,mm
+Mechanical Press Brake,APBM-1625,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-1625,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-1625,Main Motor,20,HP
+Mechanical Press Brake,APBM-2012,Tonnage,200,TON
+Mechanical Press Brake,APBM-2012,Table Length,1270,mm
+Mechanical Press Brake,APBM-2012,Bending Dimensions,1270x18,kg/mm2
+Mechanical Press Brake,APBM-2012,Ram Stroke,85,mm
+Mechanical Press Brake,APBM-2012,Ram Adjust,60,mm
+Mechanical Press Brake,APBM-2012,Shut Height,310,mm
+Mechanical Press Brake,APBM-2012,Thrust Depth,240,mm
+Mechanical Press Brake,APBM-2012,Stroke/Minute,30,SPM
+Mechanical Press Brake,APBM-2012,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-2012,Main Motor,20,HP
+Mechanical Press Brake,APBM-2015,Tonnage,200,TON
+Mechanical Press Brake,APBM-2015,Table Length,1525,mm
+Mechanical Press Brake,APBM-2015,Bending Dimensions,1525x16,kg/mm2
+Mechanical Press Brake,APBM-2015,Table Width,300,mm
+Mechanical Press Brake,APBM-2015,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-2015,Ram Stroke,110,mm
+Mechanical Press Brake,APBM-2015,Ram Adjust,75,mm
+Mechanical Press Brake,APBM-2015,Shut Height,375,mm
+Mechanical Press Brake,APBM-2015,Thrust Depth,280,mm
+Mechanical Press Brake,APBM-2015,Stroke/Minute,25,SPM
+Mechanical Press Brake,APBM-2015,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-2015,Main Motor,25,HP
+Mechanical Press Brake,APBM-2020,Tonnage,200,TON
+Mechanical Press Brake,APBM-2020,Table Length,2030,mm
+Mechanical Press Brake,APBM-2020,Bending Dimensions,2030x12,kg/mm2
+Mechanical Press Brake,APBM-2020,Table Width,300,mm
+Mechanical Press Brake,APBM-2020,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-2020,Ram Stroke,110,mm
+Mechanical Press Brake,APBM-2020,Ram Adjust,75,mm
+Mechanical Press Brake,APBM-2020,Shut Height,375,mm
+Mechanical Press Brake,APBM-2020,Thrust Depth,280,mm
+Mechanical Press Brake,APBM-2020,Stroke/Minute,25,SPM
+Mechanical Press Brake,APBM-2020,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-2020,Main Motor,25,HP
+Mechanical Press Brake,APBM-2025,Tonnage,200,TON
+Mechanical Press Brake,APBM-2025,Table Length,2540,mm
+Mechanical Press Brake,APBM-2025,Bending Dimensions,2540x10,kg/mm2
+Mechanical Press Brake,APBM-2025,Table Width,300,mm
+Mechanical Press Brake,APBM-2025,Clearing Between Housing,1530,mm
+Mechanical Press Brake,APBM-2025,Ram Stroke,110,mm
+Mechanical Press Brake,APBM-2025,Ram Adjust,75,mm
+Mechanical Press Brake,APBM-2025,Shut Height,375,mm
+Mechanical Press Brake,APBM-2025,Thrust Depth,280,mm
+Mechanical Press Brake,APBM-2025,Stroke/Minute,25,SPM
+Mechanical Press Brake,APBM-2025,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-2025,Main Motor,25,HP
+Mechanical Press Brake,APBM-2030,Tonnage,200,TON
+Mechanical Press Brake,APBM-2030,Table Length,3125,mm
+Mechanical Press Brake,APBM-2030,Bending Dimensions,3125x8,kg/mm2
+Mechanical Press Brake,APBM-2030,Table Width,300,mm
+Mechanical Press Brake,APBM-2030,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-2030,Ram Stroke,110,mm
+Mechanical Press Brake,APBM-2030,Ram Adjust,75,mm
+Mechanical Press Brake,APBM-2030,Shut Height,375,mm
+Mechanical Press Brake,APBM-2030,Thrust Depth,280,mm
+Mechanical Press Brake,APBM-2030,Stroke/Minute,25,SPM
+Mechanical Press Brake,APBM-2030,Ram Adjust Mode,2,HP
+Mechanical Press Brake,APBM-2030,Main Motor,25,HP
+Mechanical Press Brake,APBM-2040,Tonnage,200,TON
+Mechanical Press Brake,APBM-2040,Table Length,4000,mm
+Mechanical Press Brake,APBM-2040,Bending Dimensions,4000x6,kg/mm2
+Mechanical Press Brake,APBM-2040,Table Width,250,mm
+Mechanical Press Brake,APBM-2040,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-2040,Ram Stroke,110,mm
+Mechanical Press Brake,APBM-2040,Ram Adjust,75,mm
+Mechanical Press Brake,APBM-2040,Shut Height,375,mm
+Mechanical Press Brake,APBM-2040,Thrust Depth,280,mm
+Mechanical Press Brake,APBM-2040,Stroke/Minute,25,SPM
+Mechanical Press Brake,APBM-2040,Ram Adjust Mode,3,HP
+Mechanical Press Brake,APBM-2040,Main Motor,30,HP
+Mechanical Press Brake,APBM-2050,Tonnage,200,TON
+Mechanical Press Brake,APBM-2050,Table Length,5000,mm
+Mechanical Press Brake,APBM-2050,Bending Dimensions,5000x5,kg/mm2
+Mechanical Press Brake,APBM-2050,Table Width,250,mm
+Mechanical Press Brake,APBM-2050,Clearing Between Housing,1220,mm
+Mechanical Press Brake,APBM-2050,Ram Stroke,110,mm
+Mechanical Press Brake,APBM-2050,Ram Adjust,75,mm
+Mechanical Press Brake,APBM-2050,Shut Height,375,mm
+Mechanical Press Brake,APBM-2050,Thrust Depth,280,mm
+Mechanical Press Brake,APBM-2050,Stroke/Minute,25,SPM
+Mechanical Press Brake,APBM-2050,Ram Adjust Mode,3,HP
+Mechanical Press Brake,APBM-2050,Main Motor,30,HP
+Mechanical Press Brake,APBM-2060,Tonnage,200,TON
+Mechanical Press Brake,APBM-2060,Table Length,6000,mm
+Mechanical Press Brake,APBM-2060,Bending Dimensions,6000x4,kg/mm2
+Mechanical Press Brake,APBM-2060,Table Width,250,mm
+Mechanical Press Brake,APBM-2060,Clearing Between Housing,1700,mm
+Mechanical Press Brake,APBM-2060,Ram Stroke,110,mm
+Mechanical Press Brake,APBM-2060,Ram Adjust,75,mm
+Mechanical Press Brake,APBM-2060,Shut Height,375,mm
+Mechanical Press Brake,APBM-2060,Thrust Depth,280,mm
+Mechanical Press Brake,APBM-2060,Stroke/Minute,25,SPM
+Mechanical Press Brake,APBM-2060,Ram Adjust Mode,3,HP
+Mechanical Press Brake,APBM-2060,Main Motor,30,HP

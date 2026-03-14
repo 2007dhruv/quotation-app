@@ -8,6 +8,8 @@ class Company extends Model
 {
     protected $fillable = [
         'company_name',
+        'company_short_name',
+        'default_letter_body',
         'company_logo',
         'address',
         'city',
@@ -25,16 +27,30 @@ class Company extends Model
         'ifsc_code',
         'account_type',
         'logo_path',
-        'qr_code_path',
-        'web_logo_path',
-        'phone_icon_path',
-        'mail_icon_path',
+        'signature_image_path',
         'is_active',
     ];
 
     protected $casts = [
         'is_active' => 'boolean',
     ];
+
+    /**
+     * Boot function to handle model events
+     */
+    protected static function boot()
+    {
+        parent::boot();
+
+        // When a company is being saved
+        static::saving(function ($company) {
+            // If this company is being set to active
+            if ($company->is_active === true || $company->is_active === 1) {
+                // Deactivate all other companies
+                static::where('id', '!=', $company->id)->update(['is_active' => false]);
+            }
+        });
+    }
 
     /**
      * Get the primary company (active company)

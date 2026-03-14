@@ -163,11 +163,20 @@
             <td align="center" border="1">{{ $index + 1 }}</td>
             <td align="left" border="1">
                 <strong>{{ $item->product_name }}</strong><br>
-                <strong>Model:</strong> {{ $item->product_type ?? 'N/A' }}<br>
-                @if($item->product && $item->product->specifications->count() > 0)
+                <strong>Model:</strong> {{ $item->product->product_model ?? 'N/A' }}<br>
+                @php
+                    // Get all specs for this product model
+                    $allSpecs = \App\Models\Product::where('product_master_id', $item->product->product_master_id)
+                        ->where('product_model', $item->product->product_model)
+                        ->where('price', $item->product->price)
+                        ->get();
+                @endphp
+                @if($allSpecs->count() > 0)
                     <strong>Specifications:</strong><br>
-                    @foreach($item->product->specifications as $spec)
+                    @foreach($allSpecs as $spec)
+                        @if($spec->spec_name)
                         • {{ $spec->spec_name }}: {{ $spec->spec_value }}{{ $spec->spec_unit ? ' ' . $spec->spec_unit : '' }}<br>
+                        @endif
                     @endforeach
                 @endif
                 @if($item->description)

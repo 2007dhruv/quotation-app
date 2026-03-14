@@ -3,168 +3,311 @@
 namespace App\Http\Controllers;
 
 use App\Models\ProductMaster;
-use App\Models\ProductSpecification;
+use App\Models\Product;
 use Illuminate\Http\Request;
+use League\Csv\Reader;
 
 class ProductMasterController extends Controller
 {
+    /**
+     * Display a listing of product masters
+     */
     public function index()
     {
-        $products = ProductMaster::with('specifications')->get();
-        return view('products.index', compact('products'));
+        $productMasters = ProductMaster::with('products')->orderBy('product_name')->get();
+        return view('products.index', compact('productMasters'));
     }
 
+    /**
+     * Show the form for creating a new product master
+     */
     public function create()
     {
         return view('products.create');
     }
 
+    /**
+     * Store a newly created product master in database
+     */
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'product_name' => 'required|string|max:255',
-            'product_type' => 'nullable|string|max:100',
-            'default_price' => 'required|numeric|min:0',
-            'product_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'spec_name' => 'nullable|array',
-            'spec_value' => 'nullable|array',
-            'spec_unit' => 'nullable|array',
+            'product_name' => 'required|string|max:255|unique:product_masters',
+            'product_image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:10240',
+            'note' => 'nullable|string',
             'standard_accessories' => 'nullable|array',
+            'standard_accessories.*' => 'nullable|string|max:255',
             'optional_accessories' => 'nullable|array',
+            'optional_accessories.*' => 'nullable|string|max:255',
+            'specifications_template' => 'nullable|array',
+            'specifications_template.*.name' => 'nullable|string|max:255',
+            'specifications_template.*.unit' => 'nullable|string|max:100',
         ]);
-
-        // Clean accessory arrays - remove empty/zero values
-        $validated['standard_accessories'] = array_filter($validated['standard_accessories'] ?? [], function($id) {
-            return !empty($id) && $id != '0' && $id != 0;
-        });
-        $validated['optional_accessories'] = array_filter($validated['optional_accessories'] ?? [], function($id) {
-            return !empty($id) && $id != '0' && $id != 0;
-        });
 
         // Handle image upload
-        $imagePath = null;
         if ($request->hasFile('product_image')) {
-            $image = $request->file('product_image');
-            $imagePath = $image->store('products', 'public');
+            $imagePath = $request->file('product_image')->store('products', 'public');
+            $validated['product_image'] = $imagePath;
         }
 
-        $product = ProductMaster::create([
-            'product_name' => $validated['product_name'],
-            'product_type' => $validated['product_type'],
-            'default_price' => $validated['default_price'],
-            'product_image' => $imagePath ? 'storage/' . $imagePath : null,
-        ]);
+        // Filter empty accessories and save as JSON
+        $validated['standard_accessories'] = $this->filterAndEncodeAccessories(
+            $request->input('standard_accessories')
+        );
+        $validated['optional_accessories'] = $this->filterAndEncodeAccessories(
+            $request->input('optional_accessories')
+        );
 
-        // Store specifications
-        if (!empty($request->spec_name)) {
-            foreach ($request->spec_name as $index => $specName) {
-                if (!empty($specName)) {
-                    ProductSpecification::create([
-                        'product_id' => $product->id,
-                        'spec_name' => $specName,
-                        'spec_value' => $request->spec_value[$index] ?? null,
-                        'spec_unit' => $request->spec_unit[$index] ?? null,
-                    ]);
-                }
-            }
-        }
+        // Filter empty specifications template and save as JSON
+        $validated['specifications_template'] = $this->filterAndEncodeTemplate(
+            $request->input('specifications_template')
+        );
 
-        // Store standard accessories
-        if (!empty($validated['standard_accessories'])) {
-            foreach ($validated['standard_accessories'] as $accessoryId) {
-                $product->accessories()->attach($accessoryId, ['accessory_type' => 'standard']);
-            }
-        }
+        ProductMaster::create($validated);
 
-        // Store optional accessories
-        if (!empty($validated['optional_accessories'])) {
-            foreach ($validated['optional_accessories'] as $accessoryId) {
-                $product->accessories()->attach($accessoryId, ['accessory_type' => 'optional']);
-            }
-        }
-
-        return redirect()->route('products.index')->with('success', 'Product added successfully!');
+        return redirect()->route('master.index')->with('success', 'Product Master created successfully!');
     }
 
-    public function edit(ProductMaster $product)
+    /**
+     * Show the form for editing the specified product master
+     */
+    public function edit(ProductMaster $productMaster)
     {
-        $product->load('specifications');
-        return view('products.edit', compact('product'));
+        return view('products.edit', compact('productMaster'));
     }
 
-    public function update(Request $request, ProductMaster $product)
+    /**
+     * Display the specified product master with all its models
+     */
+    public function show(ProductMaster $productMaster)
+    {
+        $productMaster->load('products');
+        return view('products.show', compact('productMaster'));
+    }
+
+    /**
+     * Update the specified product master in database
+     */
+    public function update(Request $request, ProductMaster $productMaster)
     {
         $validated = $request->validate([
-            'product_name' => 'required|string|max:255',
-            'product_type' => 'nullable|string|max:100',
-            'default_price' => 'required|numeric|min:0',
-            'product_image' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'spec_name' => 'nullable|array',
-            'spec_value' => 'nullable|array',
-            'spec_unit' => 'nullable|array',
+            'product_name' => 'required|string|max:255|unique:product_masters,product_name,' . $productMaster->id,
+            'product_image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:10240',
+            'note' => 'nullable|string',
             'standard_accessories' => 'nullable|array',
+            'standard_accessories.*' => 'nullable|string|max:255',
             'optional_accessories' => 'nullable|array',
+            'optional_accessories.*' => 'nullable|string|max:255',
+            'specifications_template' => 'nullable|array',
+            'specifications_template.*.name' => 'nullable|string|max:255',
+            'specifications_template.*.unit' => 'nullable|string|max:100',
         ]);
-
-        // Clean accessory arrays - remove empty/zero values
-        $validated['standard_accessories'] = array_filter($validated['standard_accessories'] ?? [], function($id) {
-            return !empty($id) && $id != '0' && $id != 0;
-        });
-        $validated['optional_accessories'] = array_filter($validated['optional_accessories'] ?? [], function($id) {
-            return !empty($id) && $id != '0' && $id != 0;
-        });
 
         // Handle image upload
         if ($request->hasFile('product_image')) {
-            $image = $request->file('product_image');
-            $imagePath = $image->store('products', 'public');
-            $validated['product_image'] = 'storage/' . $imagePath;
+            $imagePath = $request->file('product_image')->store('products', 'public');
+            $validated['product_image'] = $imagePath;
+        } else {
+            $validated['product_image'] = $productMaster->product_image;
         }
 
-        $product->update([
-            'product_name' => $validated['product_name'],
-            'product_type' => $validated['product_type'],
-            'default_price' => $validated['default_price'],
-            'product_image' => $validated['product_image'] ?? $product->product_image,
-        ]);
+        // Filter empty accessories and save as JSON
+        $validated['standard_accessories'] = $this->filterAndEncodeAccessories(
+            $request->input('standard_accessories')
+        );
+        $validated['optional_accessories'] = $this->filterAndEncodeAccessories(
+            $request->input('optional_accessories')
+        );
 
-        // Update specifications
-        $product->specifications()->delete();
-        if (!empty($request->spec_name)) {
-            foreach ($request->spec_name as $index => $specName) {
-                if (!empty($specName)) {
-                    ProductSpecification::create([
-                        'product_id' => $product->id,
-                        'spec_name' => $specName,
-                        'spec_value' => $request->spec_value[$index] ?? null,
-                        'spec_unit' => $request->spec_unit[$index] ?? null,
-                    ]);
+        // Filter empty specifications template and save as JSON
+        $validated['specifications_template'] = $this->filterAndEncodeTemplate(
+            $request->input('specifications_template')
+        );
+
+        $productMaster->update($validated);
+
+        return redirect()->route('master.index')->with('success', 'Product Master updated successfully!');
+    }
+
+
+
+    /**
+     * Remove the specified product master from database
+     */
+    public function destroy(ProductMaster $productMaster)
+    {
+        $productMaster->products()->delete();
+        $productMaster->delete();
+        return redirect()->route('master.index')->with('success', 'Product Master deleted successfully!');
+    }
+
+    /**
+     * Filter empty accessories and return as array
+     * @param array|null $accessories
+     * @return array|null Array of accessories or null
+     */
+    private function filterAndEncodeAccessories(?array $accessories): ?array
+    {
+        if (empty($accessories)) {
+            return null;
+        }
+
+        // Filter out empty and whitespace-only values, then trim
+        $filtered = array_filter(
+            array_map('trim', $accessories),
+            fn($value) => !empty($value)
+        );
+
+        // Return array or null (Eloquent will handle JSON encoding via cast)
+        return !empty($filtered) ? array_values($filtered) : null;
+    }
+
+    /**
+     * Filter empty specification template and return as array of objects
+     * @param array|null $template
+     * @return array|null Array of {name, unit} objects or null
+     */
+    private function filterAndEncodeTemplate(?array $template): ?array
+    {
+        if (empty($template)) {
+            return null;
+        }
+
+        // Filter out empty entries and format as objects
+        $filtered = [];
+        foreach ($template as $spec) {
+            if (is_array($spec)) {
+                $name = trim($spec['name'] ?? '');
+                $unit = trim($spec['unit'] ?? '');
+
+                // Only include if name is not empty
+                if (!empty($name)) {
+                    $filtered[] = [
+                        'name' => $name,
+                        'unit' => $unit
+                    ];
                 }
             }
         }
 
-        // Update accessories - sync with accessory_type
-        $standardAccessories = [];
-        foreach ($validated['standard_accessories'] as $accessoryId) {
-            $standardAccessories[$accessoryId] = ['accessory_type' => 'standard'];
-        }
-
-        $optionalAccessories = [];
-        foreach ($validated['optional_accessories'] as $accessoryId) {
-            $optionalAccessories[$accessoryId] = ['accessory_type' => 'optional'];
-        }
-
-        // Merge and sync all accessories
-        $allAccessories = array_merge($standardAccessories, $optionalAccessories);
-        $product->accessories()->sync($allAccessories);
-
-        return redirect()->route('products.index')->with('success', 'Product updated successfully!');
+        // Return array or null (Eloquent will handle JSON encoding via cast)
+        return !empty($filtered) ? $filtered : null;
     }
 
-    public function destroy(ProductMaster $product)
+    /**
+     * Show the CSV import form
+     */
+    public function importForm()
     {
-        $product->specifications()->delete();
-        $product->delete();
-        return redirect()->route('products.index')->with('success', 'Product deleted successfully!');
+        return view('products.import');
+    }
+
+    /**
+     * Handle CSV file import
+     */
+    public function import(Request $request)
+    {
+        // Validate file
+        $request->validate([
+            'csv_file' => 'required|file|mimes:csv,txt|max:5120'
+        ], [
+            'csv_file.required' => 'Please select a CSV file to import.',
+            'csv_file.mimes' => 'File must be a CSV file.',
+            'csv_file.max' => 'File size cannot exceed 5MB.'
+        ]);
+
+        try {
+            $filePath = $request->file('csv_file')->getRealPath();
+            $csv = Reader::createFromPath($filePath, 'r');
+            $csv->setHeaderOffset(0);
+            $csv->setDelimiter(',');
+
+            $imported = 0;
+            $errors = [];
+            $row_number = 1;
+
+            foreach ($csv->getRecords() as $record) {
+                $row_number++;
+
+                try {
+                    // Handle different column name variations
+                    $productName = $record['product_name'] ?? $record['Product Name'] ?? null;
+                    $productModel = $record['product_model'] ?? $record['Model'] ?? null;
+                    $specName = $record['spec_name'] ?? $record['Specification Name'] ?? null;
+                    $specValue = $record['spec_value'] ?? $record['Specification Value'] ?? null;
+                    $specUnit = $record['spec_unit'] ?? $record['Unit'] ?? null;
+                    $price = $record['price'] ?? $record['Price (INR)'] ?? $record['Price'] ?? null;
+                    $stdAccessories = $record['standard_accessories'] ?? $record['Standard Accessories'] ?? null;
+                    $optAccessories = $record['optional_accessories'] ?? $record['Optional Accessories'] ?? null;
+                    $note = $record['note'] ?? $record['Note'] ?? null;
+
+                    // Validate required fields
+                    if (empty($productName) || empty($productModel)) {
+                        $errors[] = "Row $row_number: product_name and product_model are required.";
+                        continue;
+                    }
+
+                    // Parse accessories (separated by semicolon)
+                    $stdAccessories = !empty($stdAccessories)
+                        ? array_filter(array_map('trim', explode(';', $stdAccessories)))
+                        : [];
+
+                    $optAccessories = !empty($optAccessories)
+                        ? array_filter(array_map('trim', explode(';', $optAccessories)))
+                        : [];
+
+                    // Get or create ProductMaster
+                    $productMaster = ProductMaster::firstOrCreate(
+                        ['product_name' => trim($productName)],
+                        [
+                            'standard_accessories' => !empty($stdAccessories) ? $stdAccessories : null,
+                            'optional_accessories' => !empty($optAccessories) ? $optAccessories : null,
+                            'note' => !empty($note) ? trim($note) : null
+                        ]
+                    );
+
+                    // Prepare product data
+                    $productData = [
+                        'product_master_id' => $productMaster->id,
+                        'product_model' => trim($productModel),
+                        'spec_name' => !empty($specName) ? trim($specName) : trim($productModel),
+                        'spec_value' => !empty($specValue) ? trim($specValue) : null,
+                        'spec_unit' => !empty($specUnit) ? trim($specUnit) : null,
+                        'price' => !empty($price) ? (float) $price : 0
+                    ];
+
+                    // Create or update product
+                    Product::updateOrCreate(
+                        [
+                            'product_master_id' => $productMaster->id,
+                            'product_model' => $productData['product_model'],
+                            'spec_name' => $productData['spec_name']
+                        ],
+                        $productData
+                    );
+
+                    $imported++;
+
+                } catch (\Exception $e) {
+                    $errors[] = "Row $row_number: " . $e->getMessage();
+                    continue;
+                }
+            }
+
+            // Prepare response
+            $message = "✅ Successfully imported $imported product(s)!";
+            if (!empty($errors)) {
+                $message .= " (" . count($errors) . " error(s) found)";
+            }
+
+            return back()
+                ->with('success', $message)
+                ->with('errors', $errors);
+
+        } catch (\Exception $e) {
+            return back()
+                ->with('error', '❌ CSV Import failed: ' . $e->getMessage())
+                ->withInput();
+        }
     }
 }

@@ -3,6 +3,8 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class TermsCondition extends Model
 {
@@ -39,8 +41,21 @@ class TermsCondition extends Model
     /**
      * Relationship: Belongs to Company
      */
-    public function company()
+    public function company(): BelongsTo
     {
         return $this->belongsTo(Company::class);
+    }
+
+    /**
+     * Relationship: Terms & Conditions belong to many quotations
+     */
+    public function quotations(): BelongsToMany
+    {
+        return $this->belongsToMany(
+            Quotation::class,
+            'quotation_terms_conditions',
+            'terms_condition_id',
+            'quotation_id'
+        );
     }
 }

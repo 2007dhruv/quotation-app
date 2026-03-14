@@ -22,6 +22,7 @@ class CompanyController extends Controller
     {
         $validated = $request->validate([
             'company_name' => 'required|string|max:255|unique:companies',
+            'company_short_name' => 'required|string|max:5|unique:companies',
             'address' => 'required|string',
             'city' => 'required|string|max:100',
             'state' => 'required|string|max:100',
@@ -37,11 +38,9 @@ class CompanyController extends Controller
             'account_number' => 'nullable|string|max:50',
             'ifsc_code' => 'nullable|string|max:11',
             'account_type' => 'nullable|string|max:50',
-            'logo_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'qr_code_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'web_logo_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'phone_icon_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:1024',
-            'mail_icon_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:1024',
+            'logo_path' => ['nullable', 'image', 'mimes:jpeg,png,jpg,gif', 'max:2048'],
+            'default_letter_body' => 'nullable|string',
+            'signature_image_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'is_active' => 'nullable|boolean',
         ]);
 
@@ -49,17 +48,8 @@ class CompanyController extends Controller
         if ($request->hasFile('logo_path')) {
             $validated['logo_path'] = 'storage/' . $request->file('logo_path')->store('company-logos', 'public');
         }
-        if ($request->hasFile('qr_code_path')) {
-            $validated['qr_code_path'] = 'storage/' . $request->file('qr_code_path')->store('company-qrcodes', 'public');
-        }
-        if ($request->hasFile('web_logo_path')) {
-            $validated['web_logo_path'] = 'storage/' . $request->file('web_logo_path')->store('company-logos', 'public');
-        }
-        if ($request->hasFile('phone_icon_path')) {
-            $validated['phone_icon_path'] = 'storage/' . $request->file('phone_icon_path')->store('company-icons', 'public');
-        }
-        if ($request->hasFile('mail_icon_path')) {
-            $validated['mail_icon_path'] = 'storage/' . $request->file('mail_icon_path')->store('company-icons', 'public');
+        if ($request->hasFile('signature_image_path')) {
+            $validated['signature_image_path'] = 'storage/' . $request->file('signature_image_path')->store('company-logos', 'public');
         }
 
         $validated['is_active'] = $request->has('is_active');
@@ -78,6 +68,7 @@ class CompanyController extends Controller
     {
         $validated = $request->validate([
             'company_name' => 'required|string|max:255|unique:companies,company_name,' . $company->id,
+            'company_short_name' => 'required|string|max:5|unique:companies,company_short_name,' . $company->id,
             'address' => 'required|string',
             'city' => 'required|string|max:100',
             'state' => 'required|string|max:100',
@@ -93,11 +84,9 @@ class CompanyController extends Controller
             'account_number' => 'nullable|string|max:50',
             'ifsc_code' => 'nullable|string|max:11',
             'account_type' => 'nullable|string|max:50',
-            'logo_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'qr_code_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'web_logo_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
-            'phone_icon_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:1024',
-            'mail_icon_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:1024',
+            'logo_path' => ['nullable', 'image', 'mimes:jpeg,png,jpg,gif', 'max:2048'],
+            'default_letter_body' => 'nullable|string',
+            'signature_image_path' => 'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
             'is_active' => 'nullable|boolean',
         ]);
 
@@ -105,17 +94,8 @@ class CompanyController extends Controller
         if ($request->hasFile('logo_path')) {
             $validated['logo_path'] = 'storage/' . $request->file('logo_path')->store('company-logos', 'public');
         }
-        if ($request->hasFile('qr_code_path')) {
-            $validated['qr_code_path'] = 'storage/' . $request->file('qr_code_path')->store('company-qrcodes', 'public');
-        }
-        if ($request->hasFile('web_logo_path')) {
-            $validated['web_logo_path'] = 'storage/' . $request->file('web_logo_path')->store('company-logos', 'public');
-        }
-        if ($request->hasFile('phone_icon_path')) {
-            $validated['phone_icon_path'] = 'storage/' . $request->file('phone_icon_path')->store('company-icons', 'public');
-        }
-        if ($request->hasFile('mail_icon_path')) {
-            $validated['mail_icon_path'] = 'storage/' . $request->file('mail_icon_path')->store('company-icons', 'public');
+        if ($request->hasFile('signature_image_path')) {
+            $validated['signature_image_path'] = 'storage/' . $request->file('signature_image_path')->store('company-logos', 'public');
         }
 
         $validated['is_active'] = $request->has('is_active');
